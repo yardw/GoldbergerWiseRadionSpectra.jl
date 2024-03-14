@@ -3,7 +3,7 @@
 
 # Usage
 ## Installation
-To install the package, you can clone the repository manually or by running the following command in the terminal.
+To install the package, you can clone the repository manually or by running the following command in the terminal. 
 ```bash
 git clone https://github.com/yardw/GoldbergerWiseRadionSpectra.jl.git
 ```
