@@ -7,7 +7,7 @@ To install the package, you can clone the repository manually or by running the 
 ```bash
 git clone https://github.com/yardw/GoldbergerWiseRadionSpectra.jl.git
 ```
-Enter the **root** of this repository, run `julia` (if you have not installed `julia` yet, you can get it from [here](https://julialang.org/downloads/)).
+Enter the **root** of this repository, run `julia` (if you have not installed Julia yet, you can get it from [here](https://julialang.org/downloads/)).
 In the Julia REPL, you can enter the package mode by pressing `]` key. 
 You will see the prompt changes to
 ```bash
