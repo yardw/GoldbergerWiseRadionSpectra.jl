@@ -3,6 +3,10 @@ uuid = "5f6e4cbb-4e08-43ef-b5dd-50a951964282"
 authors = ["Yaoduo WANG <yaoduowang@sjtu.edu.cn> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+
 [compat]
 julia = "1.1"
 
