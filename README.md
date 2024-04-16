@@ -1,7 +1,7 @@
 # GoldbergerWiseRadionSpectra.jl 
 <!-- [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://yardw.github.io/GoldbergerWiseRadionSpectra.jl/stable/)  -->
 <!-- [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://yardw.github.io/GoldbergerWiseRadionSpectra.jl/dev/)  -->
-[![Build Status](https://github.com/yardw/GoldbergerWiseRadionSpectra.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/yardw/GoldbergerWiseRadionSpectra.jl/actions/workflows/CI.yml?query=branch%3Amain) 
+<!-- [![Build Status](https://github.com/yardw/GoldbergerWiseRadionSpectra.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/yardw/GoldbergerWiseRadionSpectra.jl/actions/workflows/CI.yml?query=branch%3Amain)  -->
 <!-- [![Coverage](https://codecov.io/gh/yardw/GoldbergerWiseRadionSpectra.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/yardw/GoldbergerWiseRadionSpectra.jl) -->
 
 # Installation
@@ -40,4 +40,6 @@ The package provides following functions:
         - `Fp`: the first-order derivative of the radion profile at the initial position. It can be used to rebuild the radion profile.
 - `m2s_analytical` : calculate the perturbative mass spectrum of the radion in the Goldberger-Wise model, with respect to `l2` and `g2`
 - `extract_sol` : extract the radion profile from the output of `search`
+
+
 You can also modify other parameters for Goldberger-Wise model, which includes `yₘ, u, ϕP, ϕT, k, M_IR, γ²₀`, in the `eom.jl` file.
